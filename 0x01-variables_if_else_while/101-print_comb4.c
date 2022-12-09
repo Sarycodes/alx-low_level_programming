@@ -13,7 +13,7 @@ int main(void)
 	{
 		for (b = '0'; b <= '9'; b++)
 		{
-			for (c ='0'; c <= '9'; c++)
+			for (c = x'0'; c <= '9'; c++)
 			{
 				if (a < b && b < c)
 				{
@@ -31,5 +31,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
