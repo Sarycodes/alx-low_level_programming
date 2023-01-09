@@ -1,6 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
 
+/**
+ * create_array - create an array of chars
+ * @size: number of elements
+ * @c: size of one unit
+ *
+ * Return: char
+ */
 char *create_array(unsigned int size, char c)
 {
 	char *res;
